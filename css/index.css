@@ -85,6 +85,13 @@ p {
     padding-bottom: 20px;  
 }
 
+.headerTEXT {
+    margin-top:2%;
+    padding: 2% 2%;
+    margin-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -183,4 +190,25 @@ footer nav a {
 
 .middle-content .boxes .box:nth-child(10) {
     background-color:dodgerblue;
+}
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tilebox {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.tiles {
+    width:48%;
+    padding: 2% 1%;
+    border-bottom: 1px dashed black;
+    margin:0 1%;
 }
